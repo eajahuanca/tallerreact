@@ -1,7 +1,7 @@
 {
-    "nombre": "Edwin",
-    "apellidos": "Ajahuanca Callisa",
-    "ci": 6042218,
+    "nombre": "Mi Nombre",
+    "apellidos": "Mi Apellido Paterno y Materno",
+    "ci": 10000011,
     "conocimientos": {
         "nodejs": false,
         "angularjs": true,
