@@ -1,0 +1,12 @@
+{
+    "nombre": "Edwin",
+    "apellidos": "Ajahuanca Callisa",
+    "ci": 6042218,
+    "conocimientos": {
+        "nodejs": false,
+        "angularjs": true,
+        "reactjs": true,
+        "mongodb": false
+    },
+    "fecha": "2019-05-15"
+}
