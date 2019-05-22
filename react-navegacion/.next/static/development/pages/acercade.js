@@ -9793,7 +9793,7 @@ var Acercade = function Acercade() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!*****************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Facercade&absolutePagePath=C%3A%5CUsers%5CREACT%20JS%5Cedwin%5Claboratorio%5Creact-navegacion%5Cpages%5Cacercade.js ***!
   \*****************************************************************************************************************************************************************/
@@ -9816,5 +9816,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=acercade.js.map
