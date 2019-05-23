@@ -1,0 +1,22 @@
+LINK DE CONSULTA
+https://mdbootstrap.com/articles/react/materialize-your-next-js-project-with-mdbootstrap-for-react/
+
+INSTALAR
+npm install --save mdbreact @zeit/next-css next-fonts next-images next-compose-plugins
+
+CREAR UN ARCHIVO EN LA RAIZ
+next.config.js
+
+	const withCSS = require('@zeit/next-css');
+	const withFonts = require('next-fonts');
+	const withImages = require('next-images');
+	const withPlugins = require("next-compose-plugins");
+
+	module.exports = withPlugins([withCSS, withFonts, withImages]);
+
+
+IMPORT EN EL INDEX JS
+
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import 'bootstrap-css-only/css/bootstrap.min.css';
+import 'mdbreact/dist/css/mdb.css';
