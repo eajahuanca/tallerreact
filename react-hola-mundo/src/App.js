@@ -11,6 +11,7 @@ import Estados from './componentes/estados';
 import Eventos from './componentes/eventos';
 import Formularios from './componentes/formularios';
 import Listas from './componentes/listas';
+import Juego from './componentes/juegofrutas';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route exact path="/eventos" component={Eventos}/>
         <Route exact path="/formularios" component={Formularios}/>
         <Route exact path="/listas" component={Listas}/>
+        <Route exact path="/juego" component={Juego}/>
       </Switch>
     </Router>
     
