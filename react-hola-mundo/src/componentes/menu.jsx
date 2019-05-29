@@ -37,6 +37,7 @@ class MenuPrincipal extends Component {
                                 <Link className="dropdown-item" to="/listas">Lista y llaves</Link>
                                 <Link className="dropdown-item" to="/formularios">Formulario</Link>
                                 <Link className="dropdown-item" to="/juego">Juego de frutas</Link>
+                                <Link className="dropdown-item" to="/ciclos">Ciclos de Vida</Link>
                             </div>
                         </li>
                         <li className="nav-item">
