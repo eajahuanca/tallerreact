@@ -5,6 +5,7 @@ class Listado extends Component {
         super(props);
         this.state = {  }
     }
+
     render() { 
         return ( 
             <div>
@@ -12,13 +13,17 @@ class Listado extends Component {
                     <thead>
                         <th scope='col'>Nombres</th>
                         <th scope='col'>CI</th>
+                        <th scope='col'></th>
                     </thead>
                     <tbody>
                         {
                             this.props.alumnos.map(alumno => (
-                                <tr>
+                                <tr key={alumno.ci}>
                                     <td>{alumno.nombres}</td>
                                     <td>{alumno.ci}</td>
+                                    <td>
+                                        <button className="btn btn-danger" onClick={(e) => this.props.onEliminar(e, alumno.ci)}>x</button>
+                                    </td>
                                 </tr>
                             ))
                         }
@@ -28,5 +33,5 @@ class Listado extends Component {
          );
     }
 }
- 
+
 export default Listado;

@@ -24,6 +24,14 @@ class Eventos extends Component {
         event.target.ci.value = '';
     }
 
+    eliminar = (e, elementoCi) => {
+        e.preventDefault();
+        const alumnosNuevos = this.state.alumnos.filter(element => element.ci !== elementoCi)
+        this.setState({
+            alumnos: alumnosNuevos
+        })
+    }
+
     render() { 
         return ( 
             <div>
@@ -34,7 +42,7 @@ class Eventos extends Component {
                             <Registro onRegistro={this.registro}/>
                         </div>
                         <div className="col-md-6">
-                            <Listado alumnos={this.state.alumnos}/>
+                            <Listado alumnos={this.state.alumnos} onEliminar={this.eliminar}/>
                         </div>
                     </div>
                 </div>
