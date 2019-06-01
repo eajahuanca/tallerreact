@@ -13,6 +13,7 @@ import Formularios from './componentes/formularios';
 import Listas from './componentes/listas';
 import Juego from './componentes/juegofrutas';
 import Ciclos from './componentes/ciclos';
+import Usuarios from './componentes/usuarios';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route exact path="/listas" component={Listas}/>
         <Route exact path="/juego" component={Juego}/>
         <Route exact path="/ciclos" component={Ciclos}/>
+        <Route exact path="/usuarios" component={Usuarios}/>
       </Switch>
     </Router>
     
