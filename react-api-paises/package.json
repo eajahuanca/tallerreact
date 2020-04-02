@@ -190,7 +190,7 @@
         "json5": "^0.5.1",
         "jsonify": "^0.0.0",
         "junk": "^1.0.3",
-        "kind-of": "^6.0.2",
+        "kind-of": "^6.0.3",
         "load-json-file": "^2.0.0",
         "loader-runner": "^2.4.0",
         "loader-utils": "^1.1.0",
