@@ -20,7 +20,7 @@
         "amp-toolbox-runtime-version": "^0.2.7",
         "ansi-colors": "^3.2.4",
         "ansi-html": "^0.0.7",
-        "ansi-regex": "^2.1.1",
+        "ansi-regex": "^6.0.1",
         "ansi-styles": "^3.2.1",
         "anymatch": "^2.0.0",
         "aproba": "^1.2.0",
