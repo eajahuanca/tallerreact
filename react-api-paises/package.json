@@ -220,7 +220,7 @@
         "next-compose-plugins": "^2.2.0",
         "next-fonts": "^0.17.0",
         "next-images": "^1.1.1",
-        "node-fetch": "^2.3.0",
+        "node-fetch": "^3.1.1",
         "node-releases": "^1.1.21",
         "normalize-path": "^3.0.0",
         "object-assign": "^4.1.1",
