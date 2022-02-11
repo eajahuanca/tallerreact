@@ -13,7 +13,7 @@
     "license": "ISC",
     "dependencies": {
         "@zeit/next-css": "^1.0.1",
-        "ajv": "^6.10.0",
+        "ajv": "^6.12.3",
         "ajv-keywords": "^3.4.0",
         "amp-toolbox-core": "^0.1.6",
         "amp-toolbox-optimizer": "^0.5.2-beta.6+a490384",
