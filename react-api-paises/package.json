@@ -302,7 +302,7 @@
         "setimmediate": "^1.0.5",
         "setprototypeof": "^1.1.0",
         "sha.js": "^2.4.11",
-        "shell-quote": "^1.6.1",
+        "shell-quote": "^1.7.3",
         "slash": "^1.0.0",
         "snapdragon": "^0.8.2",
         "snapdragon-node": "^2.1.1",
